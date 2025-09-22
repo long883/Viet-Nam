@@ -176,7 +176,7 @@ hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respa
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
     Title = "Viet Nam Hub",
-    SubTitle="Blox Fruits", 
+    SubTitle="by Night", 
     TabWidth=155, 
     Theme="Darker",
     Acrylic=false,
@@ -853,11 +853,53 @@ QuestLv=1
 NameMon="Serpent Hunter"
 CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
 CFrameMon=CFrame.new(-16621.4140625, 121.40631103515625, 1290.6881103515625)
-elseif Lv==2575 or Lv<=2599 or SelectMonster=="Skull Slayer" or Lv==2600 then
+elseif Lv==2575 or Lv<=2599 or SelectMonster=="Skull Slayer" then
 Ms="Skull Slayer"
 NameQuest="TikiQuest3"
 QuestLv=2
 NameMon="Skull Slayer"
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2600 or Lv<=2624 or SelectMonster=="Reef Bandits" then
+Ms="Reef Bandits"
+NameQuest="Submerged Quest Giver 1"
+QuestLv=2
+NameMon="Reef Bandits
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2625 or Lv<=2649 or SelectMonster=="Coral Pirates" then
+Ms="Coral Pirates"
+NameQuest="Submerged Quest Giver 1"
+QuestLv=2
+NameMon="Coral Pirates"
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2650 or Lv<=2674 or SelectMonster=="Sea Chanters" then
+Ms="Sea Chanters"
+NameQuest="Submerged Quest Giver 2"
+QuestLv=2
+NameMon="Sea Chanters"
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2675 or Lv<=2699 or SelectMonster=="Ocean Prophets" then
+Ms="Ocean Prophets"
+NameQuest="Submerged Quest Giver 2"
+QuestLv=2
+NameMon="Ocean Prophets"
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2700 or Lv<=2724 or SelectMonster=="Ocean Prophets" then
+Ms="Ocean Prophets"
+NameQuest="Submerged Quest Giver 2"
+QuestLv=2
+NameMon="Ocean Prophets"
+CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+elseif Lv==2725 or Lv<=2749 or SelectMonster=="Ocean Prophets" then or Lv==2750
+Ms="Ocean Prophets"
+NameQuest="Submerged Quest Giver 2"
+QuestLv=2
+NameMon="Ocean Prophets"
 CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
 CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
 end
@@ -2320,7 +2362,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0.015, 0, 0.02, 20)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://106283259656803"
+Button.Image = "rbxassetid://91347148253026"
 local UICorner = Instance.new("UICorner")
 
 UICorner.CornerRadius = UDim.new(1, 0)
